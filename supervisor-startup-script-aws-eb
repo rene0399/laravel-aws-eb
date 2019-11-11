@@ -23,6 +23,7 @@
 . /etc/rc.d/init.d/functions
 
 if [ -f /opt/elasticbeanstalk/support/envvars ]; then
+    source /opt/elasticbeanstalk/support/envvars
     . /opt/elasticbeanstalk/support/envvars
 fi
 
